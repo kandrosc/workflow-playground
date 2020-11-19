@@ -9,4 +9,4 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: first step
-        run: echo "Can you hear me?"
+        run: echo ../../workflow.py
