@@ -5,5 +5,5 @@ jobs:
     steps:
       -uses actions/checkout@v2
 
-      -name:first-step
-      run echo "Can you hear me?"	
+      -name: first step
+       run: echo "Can you hear me?"	
