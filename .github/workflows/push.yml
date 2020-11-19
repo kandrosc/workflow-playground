@@ -1,9 +1,12 @@
 name: test
-on: [push]
+
+on: push 
+
 jobs:
   build:
-    steps:
-      -uses actions/checkout@v2
 
-      -name: first step
-       run: echo "Can you hear me?"	
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: first step
+        run: echo "Can you hear me?"
