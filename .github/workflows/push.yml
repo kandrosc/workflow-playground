@@ -1,7 +1,7 @@
 name: test
 on: [push]
 jobs:
-  build:
-    steps:
+  -build:
+    -steps:
       -name:first-step
-      run: echo "Can you hear me?"	
+      run echo "Can you hear me?"	
