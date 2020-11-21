@@ -7,4 +7,4 @@ def check_even(argv):
     return 0
 
 if __name__=="__main__":
-    if check_even(sys.argv): raise ValueError
+    if check_even(sys.argv): raise ValueError("This number was not even")
