@@ -13,4 +13,4 @@ jobs:
             python-version: 3.8
 
       - name: first step
-        run: python3 workflow.py 1
+        run: python3 workflow.py 2

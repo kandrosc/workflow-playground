@@ -1,4 +1,6 @@
 import sys
+import selenium
+class OddNumberError(Exception): pass
 
 def check_even(argv):
     try: num = int(argv[1])
@@ -7,4 +9,4 @@ def check_even(argv):
     return 0
 
 if __name__=="__main__":
-    if check_even(sys.argv): raise ValueError("This number was not even")
+    if check_even(sys.argv): raise OddNumberError("This number was not even")
