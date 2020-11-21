@@ -9,4 +9,4 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: first step
-        run: workflow.py 2
+        run: ./workflow.py 2
