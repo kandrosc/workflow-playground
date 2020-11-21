@@ -6,4 +6,5 @@ def check_even(argv):
     if num%2==1: return 1
     return 0
 
-if __name__=="__main__": if check_even(sys.argv): raise ValueError
+if __name__=="__main__":
+    if check_even(sys.argv): raise ValueError
