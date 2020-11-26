@@ -17,4 +17,4 @@ jobs:
             pip install -r requirements.txt
 
       - name: first step
-        run: python3 workflow.py 2
+        run: python3 browser_success.py
