@@ -15,6 +15,7 @@ jobs:
         run: |
             python3 -m pip install --upgrade pip
             pip install -r requirements.txt
+            sudo apt-get install screen
 
       - name: first step
         run: python3 browser_success.py
